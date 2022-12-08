@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <title>Memory Game</title>
+</head>
+
+<body>
+  <section id="main-menu" class="main-menu">
+
+    <label for="username">Choose Username</label>
+    <input id="username" placeholder="Username" type="text" />
+    <select name="difficulty" id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="hard">Hard</option>
+
+    </select>
+    <button id="start-btn"></button>
+  </section>
+  <section id="play-area" class="play-area hidden">
+    <div id="img1" class="img-box"></div>
+    <div id="img2" class="img-box"></div>
+    <div id="img3" class="img-box"></div>
+    <div id="img4" class="img-box"></div>
+    <div id="img5" class="img-box"></div>
+    <div id="img6" class="img-box"></div>
+    <div id="img7" class="img-box"></div>
+    <div id="img8" class="img-box"></div>
+    <div id="img9" class="img-box"></div>
+    <div id="img10" class="img-box"></div>
+    <div id="img11" class="img-box"></div>
+    <div id="img12" class="img-box"></div>
+    <div id="img13" class="img-box"></div>
+    <div id="img14" class="img-box"></div>
+    <div id="img15" class="img-box"></div>
+    <div id="img16" class="img-box"></div>
+  </section>
+  <section id="game-end" class="game-end hidden">
+    <p id="game-result"></p>
+    <p id="play-time"></p>
+    <div class="btns-container">
+      <div>
+        <button id="play-again-btn"></button>
+        <p>Play again</p>
+      </div>
+      <div>
+        <button id="redirect-btn"></button>
+        <p> Changing room</p>
+      </div>
+    </div>
+  </section>
+  <aside id="main-aside">
+    <p id="aside-title" class="aside-title">User Scores</p>
+    <p id="currently-playing"></p>
+    <div id="ranking"></div>
+  </aside>
+</body>
+
+</html>
